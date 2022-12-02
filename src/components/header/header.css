@@ -1,0 +1,54 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ===== Call to action ===== */
+.call-to-action {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* ===== Header socials ===== */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ===== Formal portrait ===== */
+.formal-portrait {
+    --portrait-size: 15rem;
+    --portrait-border-size: 0.5rem;
+    margin-top: 2rem;
+}
+
+.formal-portrait img {
+    display: inline-block;
+    width: var(--portrait-size);
+    height: var(--portrait-size);
+    border-radius: 50%;
+    border: var(--portrait-border-size) solid var(--color-primary);
+}
+
+

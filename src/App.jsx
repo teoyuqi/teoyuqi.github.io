@@ -9,7 +9,6 @@ import Nav from './components/nav/Nav'
 const App = () => {
   return (
     <Fragment>
-      App
       <Header/>
       <Nav/>
       <About/>
