@@ -37,7 +37,7 @@ html {
 body {
     /* font-family: "", sans-serif; */
     background: var(--color-bg);
-    color: var(--color-grey);
+    color: var(--color-primary);
     line-height: 1.5;
 }
 
@@ -118,7 +118,7 @@ a:hover {
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 @media screen and (max-width: 1024px) {
     .container {
-        width: var(--container-width-medium)
+        width: var(--container-width-medium);
     }
 
     section {
@@ -129,7 +129,7 @@ a:hover {
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
 @media screen and (max-width: 600px) {
     .container {
-        width: var(--container-width-small)
+        width: var(--container-width-small);
     }
 
     section > h2 {
