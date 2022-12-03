@@ -13,7 +13,7 @@
 
 /* CSS variables. */
 :root {
-    --color-bg: black;
+    --color-bg: rgb(16, 19, 27);
     --color-primary: grey;
     --color-light: white;
     --color-blue: blue;
@@ -27,7 +27,7 @@
 
 }
 
-html {
+html, body {
     scroll-behavior: smooth;
 }
 
@@ -63,6 +63,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section>h2,
