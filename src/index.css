@@ -13,6 +13,7 @@
 
 /* CSS variables. */
 :root {
+    --main-font: 'Raleway', sans-serif;
     --color-bg: rgb(16, 19, 27);
     --color-bg-variant: rgb(41, 49, 70);
     --color-primary: grey;
@@ -38,7 +39,7 @@ html, body {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--main-font);
     background: var(--color-bg);
     color: var(--color-primary);
     line-height: 1.5;
