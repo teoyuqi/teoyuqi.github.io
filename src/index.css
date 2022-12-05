@@ -15,10 +15,10 @@
 :root {
     --main-font: 'Raleway', sans-serif;
     --color-bg: #001233;
-    --color-bg-variant: #6930c3;
-    --color-primary: #ccdbfd;
-    --color-primary-variant: #5e60ce;
-    --color-light: #e2eafc;
+    --color-bg-variant: #5e60ce;
+    --color-primary: #a1b4dc;
+    --color-primary-variant: #c1d3fe;
+    --color-light: #b0bbcc;
     --color-blue: #5390d9;
 
     --transition-ease: all 400ms ease;
@@ -91,7 +91,7 @@ section>h2 {
 }
 
 a {
-    color: var(--color-primary-variant);
+    color: var(--color-bg-variant);
     transition: var(--transition-ease);
 }
 
@@ -106,7 +106,7 @@ a:hover {
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary-variant);
+    border: 1px solid var(--color-bg-variant);
     transition: var(--transition-ease);
     font-family: var(--main-font);
     font-size: large;
@@ -119,7 +119,7 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-primary-variant);
+    background: var(--color-bg-variant);
     color: var(--color-bg);
 }
 

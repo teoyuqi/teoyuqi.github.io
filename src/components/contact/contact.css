@@ -13,13 +13,13 @@
 }
 
 .contact__option {
-    background: var(--color-primary-variant);
+    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius:1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition-ease);
-    color: var(--color-primary)
+    color: var(--color-primary-variant);
 }
 
 .contact__option:hover {
@@ -43,7 +43,7 @@ input, textarea {
     padding: 1.2rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-bg-variant);
     resize: none;
     color: var(--color-primary);
     font-family: var(--main-font);
@@ -57,7 +57,7 @@ textarea:hover {
 }
 
 ::placeholder {
-    color: var(--color-primary-variant);
+    color: var(--color-bg-variant);
     font-size: large;
 }
 
