@@ -1,11 +1,11 @@
 .about__container {
     display: grid;
-    grid-template-columns: 33% 50%;
+    padding-left: 5%;
+    grid-template-columns: 30% 50%;
     gap: 15%;
 }
 
 /* ===== Image ===== */
-
 .about__image {
     width: 100%;
     aspect-ratio: 1/1;
@@ -29,10 +29,11 @@
     transform: rotate(0);
 }
 
+
 /* ===== About cards ===== */
 .about__cards {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     gap: 1rem
 }
 
@@ -41,9 +42,15 @@
     color: var(--color-primary-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 0.5rem 1rem ;
+    padding: 2rem 1rem 0rem ;
     text-align: center;
     transition: var(--transition-ease);
+    height: 8rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__card:hover {
@@ -53,9 +60,12 @@
 }
 
 .about__icon {
-    color: var(--color-primary-variant);
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.degree {
+    font-size: 1.9rem;
 }
 
 .about__card h5 {
@@ -66,6 +76,12 @@
     font-size: 0.7rem;
     color: var(--color-light);
 }
+
+.about__bullet {
+    font-size: 0.5rem;
+}
+
+/* ===== About content (with button) ===== */
 
 .about__content p {
     margin: 1rem 0rem 2rem;

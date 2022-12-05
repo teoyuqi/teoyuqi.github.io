@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaUserGraduate, FaTools } from 'react-icons/fa'
+import { TbCertificate } from 'react-icons/tb'
 
 import cat from '../../assets/cat.jpg'
 import './about-me.css'
@@ -16,8 +17,8 @@ const AboutMe = () => {
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <FaUserGraduate className='about__icon'/>
-              <h5>B.Comp in Computer Science</h5>
+              <TbCertificate className='about__icon degree'/>
+              <h5>Computer Science</h5>
               <small>National University of Singapore (NUS)</small>
             </article>
 
@@ -29,14 +30,13 @@ const AboutMe = () => {
 
             <article className='about__card'>
               <FaTools className='about__icon'/>
-              <h5>B.Comp in Computer Science</h5>
-              <small>ETA: 2024 Summer</small>
+              <h5>Focus Area</h5>
+              <small>Software Engineering</small>
             </article>
           </div>
-
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi cupiditate perferendis ab repudiandae ad similique explicabo iusto doloremque esse, corporis deleniti facere quod nisi possimus quam eligendi. Impedit, reiciendis unde.</p>
 
-            <a href="#contact" className='btn btn-primary'>Let's talk!</a>
+          <a href="#contact" className='btn btn-primary'>Let's talk!</a>
         </div>
 
       </div>
