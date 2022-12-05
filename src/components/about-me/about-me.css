@@ -1,12 +1,18 @@
 .about__container {
     display: grid;
     padding-left: 5%;
-    grid-template-columns: 30% 50%;
-    gap: 15%;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+
+.about__content p {
+    margin: var(--vertical-gap) 0rem;
+    color: var(--color-light);
 }
 
 /* ===== Image ===== */
 .about__image {
+    margin-top: 10rem;
     width: 100%;
     aspect-ratio: 1/1;
     background: linear-gradient(45deg,
@@ -42,7 +48,7 @@
     color: var(--color-primary-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem 1rem 0rem ;
+    padding: 1rem 1rem 0rem ;
     text-align: center;
     transition: var(--transition-ease);
     height: 8rem;
@@ -81,12 +87,23 @@
     font-size: 0.5rem;
 }
 
-/* ===== About content (with button) ===== */
-
-.about__content p {
-    margin: var(--vertical-gap) 0rem var(--vertical-gap);
+/* ===== About skills ===== */
+.about__skills {
+    width: 100%;
+    margin: var(--vertical-gap) 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--vertical-gap);
     color: var(--color-light);
 }
+
+.about__skill {
+    background: var(--color-bg-variant);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    height: 8rem;
+}
+
 
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 @media screen and (max-width: 1024px) {

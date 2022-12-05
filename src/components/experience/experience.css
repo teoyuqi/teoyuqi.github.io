@@ -1,7 +1,5 @@
 .experience__container {
-    display: grid;
-    grid-template-columns: 70% 10% 10%;
-    gap: 3%;
+ /* No styles for now */
 }
 
 .experience__jobs {

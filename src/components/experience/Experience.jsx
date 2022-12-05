@@ -98,18 +98,6 @@ const Experience = () => {
         <div className='experience__jobs'>
           {jobs.map(getJobCard)}
         </div>
-
-        <div className='experience__skills'>
-          <article className='experience__skill'>
-            <h5>Fluent in</h5>
-            {/* Logos */}
-          </article>
-
-          <article className='experience__skill'>
-            <h5>Also used</h5>
-            {/* Logos */}
-          </article>
-        </div>
       </div>
     </section>
   )
