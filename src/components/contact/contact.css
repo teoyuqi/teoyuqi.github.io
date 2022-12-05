@@ -9,7 +9,7 @@
     display:flex;
     width: 100%;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: var(--vertical-gap);
 }
 
 .contact__option {
@@ -36,7 +36,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: var(--vertical-gap);
 }
 
 input, textarea {

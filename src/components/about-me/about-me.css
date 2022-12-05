@@ -34,7 +34,6 @@
 .about__cards {
     display: flex;
     justify-content: space-between;
-    gap: 1rem
 }
 
 .about__card {
@@ -84,7 +83,7 @@
 /* ===== About content (with button) ===== */
 
 .about__content p {
-    margin: 1rem 0rem 2rem;
+    margin: var(--vertical-gap) 0rem var(--vertical-gap);
     color: var(--color-light);
 }
 

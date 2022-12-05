@@ -23,6 +23,8 @@
 
     --transition-ease: all 400ms ease;
 
+    --vertical-gap: 1.2rem;
+
     /* Container widths for different window sizes. */
     --container-width-large: 75%;
     --container-width-medium: 86%;
