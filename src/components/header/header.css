@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 70vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -26,7 +26,7 @@ header {
     gap: 0.3rem;
     position: absolute;
     left: 0;
-    bottom: 15rem;
+    bottom: 1.5rem;
 }
 
 .header__socials::after {
