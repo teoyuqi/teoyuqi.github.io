@@ -48,7 +48,7 @@ header {
     width: var(--portrait-size);
     height: var(--portrait-size);
     border-radius: 50%;
-    border: var(--portrait-border-size) solid var(--color-primary);
+    border: var(--portrait-border-size) solid var(--color-primary-variant);
 }
 
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */

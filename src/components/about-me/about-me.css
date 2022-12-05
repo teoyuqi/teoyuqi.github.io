@@ -11,7 +11,7 @@
     aspect-ratio: 1/1;
     background: linear-gradient(45deg,
             transparent,
-            var(--color-primary),
+            var(--color-primary-variant),
             transparent);
     display: grid;
     place-items: center;
@@ -37,11 +37,12 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
+    background: var(--color-primary-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 0.5rem 1rem ;
     text-align: center;
+    transition: var(--transition-ease);
 }
 
 .about__card:hover {

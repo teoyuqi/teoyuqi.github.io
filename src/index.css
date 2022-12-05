@@ -14,11 +14,12 @@
 /* CSS variables. */
 :root {
     --main-font: 'Raleway', sans-serif;
-    --color-bg: rgb(16, 19, 27);
-    --color-bg-variant: rgb(41, 49, 70);
-    --color-primary: grey;
-    --color-light: white;
-    --color-blue: blue;
+    --color-bg: #001233;
+    --color-bg-variant: #6930c3;
+    --color-primary: #ccdbfd;
+    --color-primary-variant: #5e60ce;
+    --color-light: #e2eafc;
+    --color-blue: #5390d9;
 
     --transition-ease: all 400ms ease;
 
@@ -29,7 +30,8 @@
 
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -43,6 +45,11 @@ body {
     background: var(--color-bg);
     color: var(--color-primary);
     line-height: 1.5;
+    background-image: repeating-linear-gradient(-45deg, 
+        rgba(91, 108, 151, 0.25), 
+        transparent 1px,
+        transparent 6px);
+    background-size: 4px 4px;
 }
 
 /* ===== GENERAL STYLES ===== */
@@ -84,7 +91,7 @@ section>h2 {
 }
 
 a {
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     transition: var(--transition-ease);
 }
 
@@ -99,21 +106,23 @@ a:hover {
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-primary-variant);
     transition: var(--transition-ease);
     font-family: var(--main-font);
+    font-size: large;
 }
 
 .btn:hover {
     background: var(--color-light);
-    color: var(--color-bg);
+    color: var(--color-blue);
     border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: var(--color-primary-variant);
     color: var(--color-bg);
 }
+
 
 img {
     display: block;
@@ -138,7 +147,7 @@ img {
         width: var(--container-width-small);
     }
 
-    section > h2 {
+    section>h2 {
         margin-top: 2rem;
     }
 }

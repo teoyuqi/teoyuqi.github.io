@@ -23,33 +23,33 @@ const Contact = () => {
       
       <div className='container contact__container'>
         <div className='contact__options'>
-          <article className='contact__option'>
+          <a href='mailto:tyuqi@u.nus.edu' target='_blank' rel="noreferrer" className='contact__option'>
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>tyuqi@u.nus.edu</h5>
-            <a href='mailto:tyuqi@u.nus.edu' target='_blank' rel="noreferrer">Send a message</a>
-          </article>
+            Send a message
+          </a>
 
-          <article className='contact__option'>
+          <a href='mailto:tyuqi@u.nus.edu' target='_blank' rel="noreferrer" className='contact__option'>
             <AiOutlineWhatsApp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+65 8522 9381</h5>
-            <a href='https://api.whatsapp.com/send?phone=6585229381' target='_blank' rel="noreferrer">Send a message</a>
-          </article>
+            Send a message
+          </a>
 
-          <article className='contact__option'>
+          <a href='mailto:tyuqi@u.nus.edu' target='_blank' rel="noreferrer" className='contact__option'>
             <FaTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <h5>@teoyuqi</h5>
-            <a href='https://t.me/teoyuqi' target='_blank' rel="noreferrer">Send a message</a>
-          </article>
+            Send a message
+          </a>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input tpe='text' name='name' placeholder='Your Full Name' required/>
-          <input tpe='email' name='email' placeholder='Your Email' required/>
+          <input type='text' name='name' placeholder='Your Full Name' required/>
+          <input type='email' name='email' placeholder='Your Email' required/>
           <textarea name='message' rows='7' placeholder='Type Your Message Here' required/>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className='btn btn-primary'>Send Me An Email</button>
         </form>
       </div>
     </section>

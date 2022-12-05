@@ -13,29 +13,23 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background: var(--color-primary-variant);
     padding: 1.2rem;
     border-radius:1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition-ease);
+    color: var(--color-primary)
 }
 
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-bg-variant);
-    cursor: default;
 }
 
 .contact__option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-}
-
-.contact__option a {
-    margin-top: 0.7rem;
-    display: inline-block;
-    font-size: 0.8rem;
 }
 
 /* ===== Form ===== */
@@ -49,9 +43,9 @@ input, textarea {
     padding: 1.2rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-bg-variant);
+    border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: white;
+    color: var(--color-primary);
     font-family: var(--main-font);
     text-align: center;
 }
@@ -59,6 +53,16 @@ input, textarea {
 input:hover,
 textarea:hover {
     border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+::placeholder {
+    color: var(--color-primary-variant);
+    font-size: large;
+}
+
+:hover::placeholder {
+    color: var(--color-primary);
 }
 
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
