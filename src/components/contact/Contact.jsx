@@ -27,21 +27,21 @@ const Contact = () => {
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>tyuqi@u.nus.edu</h5>
-            <a href='mailto:tyuqi@u.nus.edu' target='_blank'>Send a message</a>
+            <a href='mailto:tyuqi@u.nus.edu' target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <AiOutlineWhatsApp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+65 8522 9381</h5>
-            <a href='https://api.whatsapp.com/send?phone=6585229381' target='_blank'>Send a message</a>
+            <a href='https://api.whatsapp.com/send?phone=6585229381' target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <FaTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <h5>@teoyuqi</h5>
-            <a href='https://t.me/teoyuqi' target='_blank'>Send a message</a>
+            <a href='https://t.me/teoyuqi' target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
 

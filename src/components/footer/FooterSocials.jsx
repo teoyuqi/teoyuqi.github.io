@@ -7,10 +7,10 @@ const FooterSocials = () => {
   const GITHUB_PROFILE = "https://github.com/teoyuqi/"
   return (
     <div className='footer__socials'>
-        <a href={LINKEDIN_PROFILE} target="_blank">
+        <a href={LINKEDIN_PROFILE} target="_blank" rel="noreferrer">
             <BsLinkedin/>
         </a>
-        <a href={GITHUB_PROFILE} target="_blank">
+        <a href={GITHUB_PROFILE} target="_blank" rel="noreferrer">
             <BsGithub/>
         </a>
     </div>

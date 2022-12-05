@@ -24,9 +24,9 @@ const Nav = () => {
   return (
     <nav>
       <a 
-        href='#' 
-        className={isActive('#')}
-        onClick={() => setActiveNavButton('#')}>
+        href='#header' 
+        className={isActive('#header')}
+        onClick={() => setActiveNavButton('#header')}>
           <BiHomeCircle/>
       </a>
 
