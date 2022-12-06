@@ -12,7 +12,6 @@
 
 /* ===== Image ===== */
 .about__image {
-    margin-top: 10rem;
     width: 100%;
     aspect-ratio: 1/1;
     background: linear-gradient(45deg,
@@ -85,23 +84,6 @@
 
 .about__bullet {
     font-size: 0.5rem;
-}
-
-/* ===== About skills ===== */
-.about__skills {
-    width: 100%;
-    margin: var(--vertical-gap) 0rem;
-    display: flex;
-    flex-direction: column;
-    gap: var(--vertical-gap);
-    color: var(--color-light);
-}
-
-.about__skill {
-    background: var(--color-bg-variant);
-    padding: 1rem 1rem;
-    border-radius: 1rem;
-    height: 8rem;
 }
 
 
