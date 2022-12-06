@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaUserGraduate, FaTools } from 'react-icons/fa'
+import { FaUserGraduate } from 'react-icons/fa'
+import { GiBullseye } from 'react-icons/gi'
 import { TbCertificate } from 'react-icons/tb'
 
 import cat from '../../assets/cat.jpg'
@@ -17,19 +18,19 @@ const AboutMe = () => {
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <TbCertificate className='about__icon degree'/>
+              <TbCertificate className='about__icon'/>
               <h5>Computer Science</h5>
               <small>National University of Singapore (NUS)</small>
             </article>
 
               <article className='about__card'>
-              <FaUserGraduate className='about__icon'/>
-              <h5>Estimated graduation</h5>
+              <FaUserGraduate className='about__icon about__icon-grad'/>
+              <h5>Est. graduation</h5>
               <small>2024 Summer</small>
             </article>
 
             <article className='about__card'>
-              <FaTools className='about__icon'/>
+              <GiBullseye className='about__icon'/>
               <h5>Focus Area</h5>
               <small>Software Engineering</small>
             </article>

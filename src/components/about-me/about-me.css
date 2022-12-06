@@ -64,12 +64,12 @@
 }
 
 .about__icon {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-bottom: 0.5rem;
 }
 
-.degree {
-    font-size: 1.9rem;
+.about__icon-grad {
+    font-size: 1.5rem;
 }
 
 .about__card h5 {
