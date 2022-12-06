@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineMessage } from 'react-icons/ai'
-import { BiHomeCircle } from 'react-icons/bi'
+import { BiHomeCircle, BiBrain } from 'react-icons/bi'
 import { CgProfile } from 'react-icons/cg'
 import { GiGearHammer } from 'react-icons/gi'
 
@@ -26,6 +26,7 @@ const Nav = () => {
     <nav>
       <a 
         href='#header' 
+        data-hover="Home"
         className={isActive('#header')}
         onClick={() => setActiveNavButton('#header')}>
           <BiHomeCircle/>
@@ -33,18 +34,29 @@ const Nav = () => {
 
       <a 
         href='#about-me'
+        data-hover="About Me"
         className={isActive('#about-me')}
         onClick={() => setActiveNavButton('#about-me')}>
           <CgProfile/>
-        </a>
+      </a>
 
-      <a href='#experience'        
+      <a 
+        href='#skills'
+        data-hover="Skills"
+        className={isActive('#skills')}
+        onClick={() => setActiveNavButton('#skills')}>
+          <BiBrain/>
+      </a>
+
+      <a href='#experience' 
+        data-hover="My Experience"       
         className={isActive('#experience')}
         onClick={() => setActiveNavButton('#experience')}>
           <GiGearHammer/>
         </a>
 
       <a href='#contact'
+        data-hover="Contact Me"
         className={isActive('#contact')}
         onClick={() => setActiveNavButton('#contact')}>
         <AiOutlineMessage/>
