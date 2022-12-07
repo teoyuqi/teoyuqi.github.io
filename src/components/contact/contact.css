@@ -71,6 +71,10 @@ textarea:hover {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    form .btn {
+        transform: translateX(100%);
+    }
 }
 
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
