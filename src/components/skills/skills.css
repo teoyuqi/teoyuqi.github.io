@@ -100,4 +100,7 @@
     .skills__content {
         text-align: center;
     }
+    .skills__icons {
+        justify-content: center;
+    }
 }

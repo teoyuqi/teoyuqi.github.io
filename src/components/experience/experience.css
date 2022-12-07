@@ -78,5 +78,8 @@
 
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
 @media screen and (max-width: 600px) {
-
+    .experience__job {
+        flex-direction: column;
+        align-items: center;
+    }
 }
