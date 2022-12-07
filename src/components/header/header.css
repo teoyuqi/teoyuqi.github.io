@@ -10,6 +10,18 @@ header {
     position: relative;
 }
 
+.header__content {
+    transform: translateY(-100%);
+}
+
+.header__content.hide {
+    transform: translateY(-100%);
+}
+
+.header__content.show {
+    transform: translateY(0);
+}
+
 /* ===== Call to action ===== */
 .call-to-action {
     margin-top: 2.5rem;
