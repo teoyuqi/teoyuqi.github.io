@@ -68,7 +68,7 @@ body {
     transition: var(--transition-ease);
     opacity: 0;
     filter: blur(1rem);
-    transform: translateX(+100%);
+    transform: translateX(100%);
 }
 
 .container {
@@ -100,7 +100,6 @@ section>h5 {
 }
 
 section>h2 {
-    /* color: */
     margin-bottom: 3rem;
 }
 
@@ -162,6 +161,15 @@ img {
 
     section {
         margin-top: 6rem;
+    }
+
+    .show {
+        transition-delay: 200ms;
+    }
+
+    .hide {
+        transform: translateX(0);
+        transform: translateY(30%);
     }
 }
 
