@@ -39,9 +39,14 @@ const AboutMe = (props) => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi cupiditate perferendis ab repudiandae ad similique explicabo iusto doloremque esse, corporis deleniti facere quod nisi possimus quam eligendi. Impedit, reiciendis unde.</p>
+          <p> Welcome to my site! I am Yu Qi, a Computer Science undergraduate 
+              from the National University of Singapore (NUS) with a passion for
+              building great software. 
+              <br></br><br></br>
+              I am open to full-time software engineering opportunities from
+              Summer 2024 onwards. <b>DM me and let's work!</b></p>
 
-          <a href="#contact" className='btn btn-primary'>Let's talk!</a>
+          <a href="#contact" className='btn btn-primary'>DM me!</a>
         </div>
 
       </div>
