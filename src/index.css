@@ -56,6 +56,20 @@ body {
 }
 
 /* ===== GENERAL STYLES ===== */
+.show {
+    opacity: 1;
+    transition: var(--transition-ease);
+    filter: blur(0rem);
+    transform: translateX(0%);
+}
+
+.hide {
+    transition: var(--transition-ease);
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translateX(+100%);
+}
+
 .container {
     width: var(--container-width-large);
     margin: 0 auto;
@@ -133,6 +147,12 @@ img {
     object-fit: cover;
 }
 
+@media(prefers-reduced--motion) {
+    .hide, .show {
+        transition: none;
+    }
+}
+
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 @media screen and (max-width: 1024px) {
     .container {
@@ -154,3 +174,4 @@ img {
         margin-top: 2rem;
     }
 }
+
