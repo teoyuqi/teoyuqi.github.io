@@ -73,7 +73,7 @@ textarea:hover {
     }
 
     form .btn {
-        transform: translateX(100%);
+        width: 100%;
     }
 }
 

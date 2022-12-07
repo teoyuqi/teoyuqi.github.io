@@ -89,6 +89,14 @@
         padding: 0;
     }
 
+    .skills__content {
+        text-align: center;
+    }
+
+    .skills__content p {
+        text-align: justify;
+    }
+
 }
 
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
@@ -97,9 +105,10 @@
         padding: 0.5rem 0.5rem;
     }
 
-    .skills__content {
+    .skills__content p {
         text-align: center;
     }
+
     .skills__icons {
         justify-content: center;
     }

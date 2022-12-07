@@ -28,7 +28,7 @@ const Skills = (props) => {
       <h2>Skills</h2>
       <div className='container skills__container'>
 
-          <div ref={observeElement}>
+          <div className='skills__content' ref={observeElement}>
             <p>Here are some of the programming languages and frameworks I have used in the past. Hit me up if I have the skillsets you are looking for!</p>
 
             <a href="#contact" className='btn btn-primary' ref={observeElement}>Hit Me Up!</a>
