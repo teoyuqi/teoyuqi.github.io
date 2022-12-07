@@ -6,8 +6,10 @@ import dsoLogo from '../../assets/companyLogos/dso.png'
 import nusLogo from '../../assets/companyLogos/nus.png'
 import './experience.css'
 
-const Experience = () => {
-  var keyCount = 0;
+const Experience = (props) => {
+
+  const { observeElement } = props;
+
   const jobs = [
     { id: 1,
       image: tiktokLogo,
@@ -70,7 +72,7 @@ const Experience = () => {
 
   const getJobCard = (job) => {
     return (
-      <article className='experience__job' key={job["id"]}>
+      <article className='experience__job' key={job["id"]} ref={observeElement}>
         <div className='experience__logo'>
           <img src={job["image"]} alt={`${job["company"]} logo`}/>
         </div>

@@ -5,7 +5,9 @@ import HeaderSocials from './HeaderSocials'
 import formalPortrait from '../../assets/formal-portrait.jfif'
 import './header.css'
 
-const Header = () => {
+const Header = (props) => {
+  const { observeElement } = props; 
+
   return (
     <header id='header'>
       <div className='container header__container'>

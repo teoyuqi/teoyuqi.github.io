@@ -59,6 +59,7 @@ body {
 .show {
     opacity: 1;
     transition: var(--transition-ease);
+    transition-delay: 150ms;
     filter: blur(0rem);
     transform: translateX(0%);
 }

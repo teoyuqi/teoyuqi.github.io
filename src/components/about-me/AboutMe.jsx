@@ -6,7 +6,10 @@ import { TbCertificate } from 'react-icons/tb'
 import cat from '../../assets/cat.jpg'
 import './about-me.css'
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+
+  const { observeElement } = props;
+
   return (
     <section id='about-me'>
       <h2>About me</h2>
@@ -15,7 +18,7 @@ const AboutMe = () => {
           <img src={cat} alt='huihui'/>
         </div>
 
-        <div className='about__content'>
+        <div className='about__content' ref={observeElement}>
           <div className='about__cards'>
             <article className='about__card'>
               <TbCertificate className='about__icon'/>

@@ -6,7 +6,10 @@ import { HiOutlineMail } from 'react-icons/hi'
 
 import './contact.css'
 
-const Contact = () => {
+const Contact = (props) => {
+  
+  const { observeElement } = props;
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -22,7 +25,7 @@ const Contact = () => {
       <h2>Contact Me</h2>
       
       <div className='container contact__container'>
-        <div className='contact__options'>
+        <div className='contact__options' ref={observeElement}>
           <a href='mailto:tyuqi@u.nus.edu' target='_blank' rel="noreferrer" className='contact__option'>
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
@@ -46,9 +49,9 @@ const Contact = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your Full Name' required/>
-          <input type='email' name='email' placeholder='Your Email' required/>
-          <textarea name='message' rows='7' placeholder='Type Your Message Here' required/>
+          <input type='text' name='name' placeholder='Your Full Name' ref={observeElement} required/>
+          <input type='email' name='email' placeholder='Your Email' ref={observeElement} required/>
+          <textarea name='message' rows='7' placeholder='Type Your Message Here' ref={observeElement} required/>
           <button type='submit' className='btn btn-primary'>Send Me An Email</button>
         </form>
       </div>
