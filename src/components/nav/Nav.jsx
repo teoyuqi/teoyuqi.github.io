@@ -10,7 +10,7 @@ import './nav.css'
 const Nav = () => {
 
   // const [ activeNavButton, setActiveNavButton ] = useState("#header");
-  // const [ activeNavButton, setActiveNavButton ] = useState();
+  const [ activeNavButton, setActiveNavButton ] = useState();
 
   // Checks if a button is the active button. 
   // If it is active, return "active", else, return "".
