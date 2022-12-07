@@ -20,6 +20,7 @@
     --color-primary-variant: #c1d3fe;
     --color-light: #b0bbcc;
     --color-blue: #5390d9;
+    --color-blue-clear: rgba(91, 108, 151, 0.25);
 
     --transition-ease: all 400ms ease;
 
@@ -48,7 +49,7 @@ body {
     color: var(--color-primary);
     line-height: 1.5;
     background-image: repeating-linear-gradient(-45deg, 
-        rgba(91, 108, 151, 0.25), 
+        var(--color-blue-clear), 
         transparent 1px,
         transparent 6px);
     background-size: 4px 4px;
@@ -115,9 +116,9 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-light);
+    background: var(--color-blue-clear);
     color: var(--color-blue);
-    border-color: transparent;
+    border-color: var(--color-bg-variant);
 }
 
 .btn-primary {
