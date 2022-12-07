@@ -44,7 +44,7 @@ const AboutMe = (props) => {
               building great software. 
               <br></br><br></br>
               I am open to full-time software engineering opportunities from
-              Summer 2024 onwards. <b>DM me and let's work!</b></p>
+              Summer 2024 onwards. <b>DM me and let's work together!</b></p>
 
           <a href="#contact" className='btn btn-primary'>DM me!</a>
         </div>

@@ -38,7 +38,7 @@ const Experience = (props) => {
       description: [{ id: 1, 
                       text: "Assisted in setting weekly quizzes for the OTH4199 AI Primer Course"},
                     { id: 2, 
-                      text: "Tested student's understnding of Search, Minimax and Hill-Climbing algorithms"},
+                      text: "Tested student's understanding of Search, Minimax and Hill-Climbing algorithms"},
                     { id: 3, 
                       text: "Beneficiary: Autism Resource Centre (Singapore)"}]
     },
