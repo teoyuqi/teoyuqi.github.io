@@ -55,7 +55,7 @@ const Experience = (props) => {
   ];
 
   const getJobDescription = (descriptions) => {
-    if (descriptions.length == 0) {
+    if (descriptions.length === 0) {
       return(<div></div>);
     } else {
       return(descriptions.map((description) => {
