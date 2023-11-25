@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8acd271b.css",
-    "main.js": "/static/js/main.139a1ca2.js",
+    "main.css": "/static/css/main.c9a77b30.css",
+    "main.js": "/static/js/main.1e560256.js",
     "static/media/cat.jpg": "/static/media/cat.5592ae1b3941f4f4353c.jpg",
     "static/media/nus.png": "/static/media/nus.e321f11bd5c5b56670a2.png",
     "static/media/Teo_Yu_Qi Resume.pdf": "/static/media/Teo_Yu_Qi Resume.90997b85a3e27b0049af.pdf",
@@ -9,11 +9,11 @@
     "static/media/formal-portrait.jfif": "/static/media/formal-portrait.a13fa1e1ae99131f0bc5.jfif",
     "static/media/tiktok.png": "/static/media/tiktok.13fa49441b19c3252039.png",
     "index.html": "/index.html",
-    "main.8acd271b.css.map": "/static/css/main.8acd271b.css.map",
-    "main.139a1ca2.js.map": "/static/js/main.139a1ca2.js.map"
+    "main.c9a77b30.css.map": "/static/css/main.c9a77b30.css.map",
+    "main.1e560256.js.map": "/static/js/main.1e560256.js.map"
   },
   "entrypoints": [
-    "static/css/main.8acd271b.css",
-    "static/js/main.139a1ca2.js"
+    "static/css/main.c9a77b30.css",
+    "static/js/main.1e560256.js"
   ]
 }
