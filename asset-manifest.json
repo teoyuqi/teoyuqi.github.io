@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8acd271b.css",
-    "main.js": "/static/js/main.c4f1ebe9.js",
+    "main.js": "/static/js/main.b40b8831.js",
     "static/media/cat.jpg": "/static/media/cat.5592ae1b3941f4f4353c.jpg",
     "static/media/nus.png": "/static/media/nus.e321f11bd5c5b56670a2.png",
     "static/media/Teo_Yu_Qi Resume.pdf": "/static/media/Teo_Yu_Qi Resume.90997b85a3e27b0049af.pdf",
@@ -10,10 +10,10 @@
     "static/media/tiktok.png": "/static/media/tiktok.13fa49441b19c3252039.png",
     "index.html": "/index.html",
     "main.8acd271b.css.map": "/static/css/main.8acd271b.css.map",
-    "main.c4f1ebe9.js.map": "/static/js/main.c4f1ebe9.js.map"
+    "main.b40b8831.js.map": "/static/js/main.b40b8831.js.map"
   },
   "entrypoints": [
     "static/css/main.8acd271b.css",
-    "static/js/main.c4f1ebe9.js"
+    "static/js/main.b40b8831.js"
   ]
 }
